@@ -5,8 +5,8 @@ if __name__ == "__main__":
     print("Hola Mundo")
     
     car = Car()
-    car.brand = "JEtta"
-    print("Car: {}".format(car.brand))
+    car.driver = "Adnrés"
+    print("Car: {}".format(car.driver))
 
     r = Route()
     r.init = [12.00,45.04]
