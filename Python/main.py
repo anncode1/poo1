@@ -1,11 +1,14 @@
-from uberx import UberX
+from car import Car
+from route import Route
 
 if __name__ == "__main__":
     print("Hola Mundo")
-    uberXVento = UberX()
-    uberXVento.model = 2017
-    uberXVento.passengers = 4
-    uberXVento.door = 4
-    uberXVento.brand = "Vento"
+    
+    car = Car()
+    car.brand = "JEtta"
+    print("Car: {}".format(car.brand))
 
-    print("UberX Brand: {}".format(uberXVento.brand))
+    r = Route()
+    r.init = [12.00,45.04]
+    print("r[0]: {}".format(r.init[1]))
+    
