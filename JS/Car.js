@@ -1,10 +1,9 @@
 //this hace referencia a sí mismo
-function Car() {
+//Constructor implisito en la clase
+function Car(license, driver) {
     this.id;
-    this.license;
-    this.driver;
+    this.license = license;
+    this.driver = driver;
     this.passenger;
-    this.brand;
-    this.model;
     
 }

@@ -1,16 +1,11 @@
-//Mostrar cómo se llama un objeto en JS 
-var car = new Car();
-car.license ="AW$4567";
-car.driver ="Salomon";
-car.model = "Aveo";
-car.brand = "Chevrolet";
+
+var car = new Car("AW4567", new Account("Andres", "AND123"));
 car.passengers = 4
-console.log(car.model);
-console.log(car.brand);
 console.log(car.driver);
+console.log(car.driver.name);
+console.log(car.driver.document);
 console.log(car.passengers);
 
-//Declarar un constructor
 
 
 
