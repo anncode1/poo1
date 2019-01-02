@@ -6,7 +6,10 @@ if __name__ == "__main__":
     
     car = Car()
     car.brand = "JEtta"
+    car.model = "Vento"
+    car.lic = "AMS567"
     print("Car: {}".format(car.brand))
+    print(vars(car))
 
     r = Route()
     r.init = [12.00,45.04]

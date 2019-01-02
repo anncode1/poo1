@@ -1,6 +1,6 @@
 class Car:
     id          = int
-    license     = str
+    lic         = str
     driver      = str
     passenger   = int
     brand       = str
