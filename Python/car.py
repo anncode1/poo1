@@ -3,5 +3,3 @@ class Car:
     lic         = str
     driver      = str
     passenger   = int
-    brand       = str
-    model       = str

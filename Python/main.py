@@ -5,10 +5,9 @@ if __name__ == "__main__":
     print("Hola Mundo")
     
     car = Car()
-    car.brand = "JEtta"
-    car.model = "Vento"
     car.lic = "AMS567"
-    print("Car: {}".format(car.brand))
+    car.driver = "Adnres"
+    print("Car: {}".format(car.driver))
     print(vars(car))
 
     r = Route()
